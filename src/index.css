@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-montserrat text-text-dark bg-soft-cream;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-cormorant;
+}
+
+.accent-text {
+  @apply font-dancing;
+}
+
+/* Enhanced navbar styles */
+@supports (backdrop-filter: blur(8px)) {
+  .backdrop-blur-md {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+  
+  .backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+}
