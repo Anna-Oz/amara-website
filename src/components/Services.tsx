@@ -103,6 +103,18 @@ const Services = () => {
             </motion.div>
           ))}
         </motion.div>
+
+        <div className="text-center mt-16">
+          <p className="text-lg text-gray-600 mb-6">
+            Fill out the form below to learn more about our services.
+          </p>
+          <a
+            href="#contact"
+            className="inline-block bg-dusty-rose text-white px-8 py-3 rounded-lg font-medium hover:bg-warm-brown transition-colors duration-300"
+          >
+            Learn more about our services
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -30,6 +30,9 @@ const Hero = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => {
+              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+            }}
             className="bg-white text-warm-brown font-montserrat px-8 py-3 rounded-full hover:bg-dusty-rose hover:text-white transition-colors duration-300"
           >
 
